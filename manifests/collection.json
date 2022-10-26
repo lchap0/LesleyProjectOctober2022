@@ -15,5 +15,11 @@
       "en" : [ "Theodore Roosevelt at Billings, Montana, 1918" ]
     },
     "type" : "Manifest"
+  }, {
+    "id" : "https://lchap0.github.io/LesleyProjectOctober2022/manifests/av_manifest1.json",
+    "label" : {
+      "en" : [ "Theodore Roosevelt at Billings, Montana, 1918" ]
+    },
+    "type" : "Manifest"
   } ]
 }
