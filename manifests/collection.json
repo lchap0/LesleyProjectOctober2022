@@ -1,0 +1,13 @@
+{
+  "id" : "https://lchap0.github.io/LesleyProjectOctober2022/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in lchap0/LesleyProjectOctober2022 project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : "sc:Manifest",
+    "@id" : "https://lchap0.github.io/LesleyProjectOctober2022/manifests/manifest2.json",
+    "label" : "1910 Pullman Touring Car Model K-10"
+  } ]
+}
