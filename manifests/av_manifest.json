@@ -1,0 +1,45 @@
+{
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "id" : "https://lchap0.github.io/LesleyProjectOctober2022/manifests/av_manifest.json",
+  "type" : "Manifest",
+  "label" : {
+    "en" : [ "Theodore Roosevelt at Billings, Montana, 1918" ]
+  },
+  "metadata" : [ {
+    "label" : "Title",
+    "value" : "TR at Billings, Montana [1918]"
+  }, {
+    "label" : "Genre",
+    "value" : "Newsreel--Short"
+  } ],
+  "description" : [ {
+    "@value" : "In Billings, Montana, on October 5, 1918, to speak on behalf of the Liberty Loan and to denounce the Nonpartisan League of Farmers for its pacifist orientation, TR appears in a touring car greeting Billings citizens. Long shot of TR doffing his hat and shaking hands from a parked car in downtown Billings; after he is seated, car moves through crowded, flag-draped street",
+    "@language" : "en"
+  } ],
+  "attribution" : "Library of Congress, Motion Picture, Broadcasting, and Recorded Sound Division",
+  "items" : [ {
+    "id" : "https://iiif.io/api/cookbook/recipe/0003-mvm-video/canvas",
+    "type" : "Canvas",
+    "height" : 480,
+    "width" : 640,
+    "duration" : 40,
+    "items" : [ {
+      "id" : "https://iiif.io/api/cookbook/recipe/0003-mvm-video/canvas/page",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://iiif.io/api/cookbook/recipe/0003-mvm-video/canvas/page/annotation",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "body" : {
+          "id" : "https://lchap0.github.io/LesleyProjectOctober2022/videos/media-ammem-TheodoreRoosevelt-4148.mp4",
+          "type" : "Video",
+          "height" : 480,
+          "width" : 640,
+          "duration" : 40,
+          "format" : "video/mp4"
+        },
+        "target" : "https://iiif.io/api/cookbook/recipe/0003-mvm-video/canvas"
+      } ]
+    } ]
+  } ]
+}
