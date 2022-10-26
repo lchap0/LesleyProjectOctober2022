@@ -1,0 +1,124 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://lchap0.github.io/LesleyProjectOctober2022/manifests/manifest2.json",
+  "@type" : "sc:Manifest",
+  "label" : "1910 Pullman Touring Car Model K-10",
+  "metadata" : [ {
+    "label" : "Editor",
+    "value" : "Lesley Chapman"
+  }, {
+    "label" : "Date",
+    "value" : "8 August 2022"
+  } ],
+  "description" : [ {
+    "@value" : "Examples of the 1910 Pullman Touring Car Model K-10",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "attribution" : "Northeast Classic Car Museum",
+  "sequences" : [ {
+    "@id" : "http://5d74a188-c71b-4e4c-aa16-3069ab276bb2",
+    "@type" : "sc:Sequence",
+    "viewingHint" : "paged",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://ed41ddb7-241b-432b-8830-e84997b538d4",
+      "@type" : "sc:Canvas",
+      "label" : "Example in the collection of the Northeast Classic Car Museum, Norwich, NY",
+      "height" : 3928,
+      "width" : 2950,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://7cef7591-8c89-42c8-a371-7226aabdac30",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/img-5580_20221025/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/img-5580_20221025",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 3928,
+          "width" : 2950
+        },
+        "on" : "http://ed41ddb7-241b-432b-8830-e84997b538d4"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://e7733b19-8bba-4ecb-b0da-236c406417a0",
+      "@type" : "sc:Canvas",
+      "label" : "Model K line print advertisement, ca.1909",
+      "height" : 1600,
+      "width" : 1192,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://35779872-0def-40f7-8493-3ce523cffe00",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/s-l1600_20221025/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/s-l1600_20221025",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 1600,
+          "width" : 1192
+        },
+        "on" : "http://e7733b19-8bba-4ecb-b0da-236c406417a0"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://35a78894-9584-4e23-ab70-ecc4e58ce50f",
+      "@type" : "sc:Canvas",
+      "label" : "Example offered at auction in June 2019",
+      "height" : 842,
+      "width" : 1184,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://6671f3c1-3d7c-4602-af52-203cf76bbdee",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/82c-54617-e-543-4416-8018-6be-81e-9756dc-1-1910-pullman-model-k_202210$82c54617-e543-4416-8018-6be81e9756dc-1_1910_Pullman_Model_K.jpg/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/82c-54617-e-543-4416-8018-6be-81e-9756dc-1-1910-pullman-model-k_202210$82c54617-e543-4416-8018-6be81e9756dc-1_1910_Pullman_Model_K.jpg",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 842,
+          "width" : 1184
+        },
+        "on" : "http://35a78894-9584-4e23-ab70-ecc4e58ce50f"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ {
+    "@id" : "http://example.org/iiif/book1/range/top",
+    "@type" : "sc:Range",
+    "label" : "Table of Content",
+    "viewingHint" : "top",
+    "ranges" : [ "http://example.org/iiif/book1/range/intro", "http://example.org/iiif/book1/range/chapter1" ]
+  }, {
+    "@id" : "http://example.org/iiif/book1/range/intro",
+    "@type" : "sc:Range",
+    "label" : "Northeast Classic Car Museum",
+    "canvases" : [ "http://ed41ddb7-241b-432b-8830-e84997b538d4" ]
+  }, {
+    "@id" : "http://example.org/iiif/book1/range/chapter1",
+    "@type" : "sc:Range",
+    "label" : "Additional materials",
+    "canvases" : [ "http://e7733b19-8bba-4ecb-b0da-236c406417a0", "http://35a78894-9584-4e23-ab70-ecc4e58ce50f" ]
+  } ]
+}
