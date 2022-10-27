@@ -3,6 +3,11 @@
   "@id" : "https://lchap0.github.io/LesleyProjectOctober2022/manifests/manifest2.json",
   "@type" : "sc:Manifest",
   "label" : "1910 Pullman Touring Car Model K-10",
+  "service" : {
+    "profile" : "http://iiif.io/api/search/0/search",
+    "@id" : "https://dev.gdmrdigital.com/search-api/1245635613/116759268/df80f1f6acfcfa5cbab571ee8201e55b/search",
+    "@context" : "http://iiif.io/api/search/0/context.json"
+  },
   "metadata" : [ {
     "label" : "Editor",
     "value" : "Lesley Chapman"
