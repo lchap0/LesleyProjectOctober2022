@@ -17,5 +17,9 @@
       "en" : [ "Theodore Roosevelt at Billings, Montana, 1918" ]
     },
     "type" : "Manifest"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://lchap0.github.io/LesleyProjectOctober2022/manifests/manifest2.json",
+    "label" : "1910 Pullman Touring Car Model K-10"
   } ]
 }
