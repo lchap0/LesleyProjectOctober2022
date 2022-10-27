@@ -1,6 +1,6 @@
 {
   "@type" : "sc:Layer",
-  "otherContent" : [ ],
+  "otherContent" : [ "https://lchap0.github.io/LesleyProjectOctober2022/annotations/84cbf493307a72be21918c4c7ff092f8.json" ],
   "@id" : "https://lchap0.github.io/LesleyProjectOctober2022/annotations/collection.json",
   "label" : "All annotations loaded in lchap0/LesleyProjectOctober2022 project",
   "@context" : "http://iiif.io/api/presentation/2/context.json"
